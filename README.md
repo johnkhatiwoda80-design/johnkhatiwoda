@@ -80,31 +80,6 @@ height: 250px;
 position: relative;
 }
 
-.character {
-width: 50%;
-height: 50%;
-object-fit: contain;
-animation: bounce 1.5s infinite alternate ease-in-out;
-}
-
-.rose {
-position: absolute;
-bottom: 50px;
-right: 30px;
-font-size: 3.5rem;
-animation: sway 2s infinite alternate ease-in-out;
-transform-origin: bottom center;
-}
-
-@keyframes bounce {
-0% { transform: translateY(0); }
-100% { transform: translateY(-20px); }
-}
-
-@keyframes sway {
-0% { transform: rotate(-20deg); }
-100% { transform: rotate(20deg); }
-}
 
 /* Buttons - FIXED FOR iOS */
 .buttons-area {
@@ -552,3 +527,4 @@ document.body.classList.add('no-touch');
 </script>
 </body>
 </html>
+
